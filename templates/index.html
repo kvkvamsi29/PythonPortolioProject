@@ -1,0 +1,231 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>Python With KVK</title>
+  <link rel="icon" href="../static/assets/images/favicon.png">
+  <link rel="stylesheet" href="../static/css/style.css">
+</head>
+<body>
+  <header class="navbar">
+    <div class="brand">
+  <!-- <img src="../static/assets/images/logo_pythonwithkvk.png" alt="Logo" class="brand-logo"> -->
+  <span class="brand-text">
+    <span class="brand-python">Python</span>
+    <span class="brand-with">with</span>
+    <span class="brand-kvk">KVK</span>
+  </span>
+</div>
+    <!-- <div class="brand"><img src="../static/assets/images/logo_pythonwithkvk.png" alt="Logo" class="brand-logo"> <span class="brand-text">Python <strong>With KVK</strong></span></div> -->
+    <nav class="nav-links">
+      <a href="#skills">Skills</a>
+      <a href="#ai-tools">AI Tools</a>
+      <a href="#projects">Projects</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <video id="bg-video" playsinline preload="auto">
+    <source src="../static/assets/videos/mybgvideo.mp4" type="video/mp4">
+    Your browser doesn't support video.
+  </video>
+  <div class="code-rain-overlay"></div>
+
+  <!-- <button id="audioToggle" class="audio-toggle" aria-pressed="false">🔈</button>
+  <audio id="ambientAudio" src="../static/assets/audio/ambient.mp3" loop></audio> -->
+
+  <main>
+    <section class="hero">
+      <div class="hero-card">
+        <h1>Become a <span class="highlight">Python Full-Stack & AI</span> Expert</h1>
+        <p class="hero-sub">Zero coding knowledge required. Learn Python, Django, React, APIs, NumPy/Pandas and modern AI tools with real-time projects.</p>
+        <div class="cta-row">
+          <button class="cta" id="startVideo">Start Experience</button>
+          <a class="cta-outline" href="#contact">Join Now</a>
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="about">
+      <h2 class="section-title">About Python</h2>
+      <p class="about-text">Python is a powerful, easy-to-learn language used for web development, data science, automation and AI. This course helps beginners become industry-ready with hands-on projects and AI tool integrations.</p>
+
+      <div id="why" class="why-grid">
+        <div class="why-card" data-anim>
+          <div class="icon">🧠</div>
+          <h4>No Coding Background Needed</h4>
+          <p>Start from scratch with step-by-step lessons and practical exercises.</p>
+        </div>
+        <div class="why-card" data-anim>
+          <div class="icon">🧩</div>
+          <h4>Hands-on AI Projects</h4>
+          <p>Build real projects integrating ChatGPT, Gemini and other AI tools.</p>
+        </div>
+        <div class="why-card" data-anim>
+          <div class="icon">⚙️</div>
+          <h4>Industry Tools Mastery</h4>
+          <p>Learn Django, React, SQL, APIs, NumPy, Pandas and Git workflows.</p>
+        </div>
+        <div class="why-card" data-anim>
+          <div class="icon">🚀</div>
+          <h4>Career-Ready Path</h4>
+          <p>Portfolio-focused training and GitHub-ready projects to boost your job prospects.</p>
+        </div>
+      </div>
+    </section>
+
+    <section id="skills" class="skills">
+      <h2 class="section-title">Full-Stack Skills</h2>
+      <p class="learn-More"> (Click on the Specific skill to learn More ..,)</p>
+      <div class="grid">
+        <div class="skill-card" onclick="toggleDescription(this)">
+          <div class="card-img"><img src="../static/assets/images/html.png" alt="HTML"></div>
+          <div class="card-body"><h5>HTML</h5><p class="desc">HTML structures content and accessibility for web pages.</p></div>
+        </div>
+
+        <div class="skill-card" onclick="toggleDescription(this)">
+          <div class="card-img"><img src="../static/assets/images/css.png" alt="CSS"></div>
+          <div class="card-body"><h5>CSS</h5><p class="desc">CSS styles pages and creates responsive layouts and animations.</p></div>
+        </div>
+
+        <div class="skill-card" onclick="toggleDescription(this)">
+          <div class="card-img"><img src="../static/assets/images/javascript.png" alt="JavaScript"></div>
+          <div class="card-body"><h5>JavaScript</h5><p class="desc">JavaScript enables interactivity and client-side logic.</p></div>
+        </div>
+
+        <div class="skill-card" onclick="toggleDescription(this)">
+          <div class="card-img"><img src="../static/assets/images/react.png" alt="React"></div>
+          <div class="card-body"><h5>React</h5><p class="desc">React builds component-driven interfaces.</p></div>
+        </div>
+
+        <div class="skill-card" onclick="toggleDescription(this)">
+          <div class="card-img"><img src="../static/assets/images/python.png" alt="Python"></div>
+          <div class="card-body"><h5>Python</h5><p class="desc">Python powers backend systems, scripting, and AI.</p></div>
+        </div>
+
+        <div class="skill-card" onclick="toggleDescription(this)">
+          <div class="card-img"><img src="../static/assets/images/django.png" alt="Django"></div>
+          <div class="card-body"><h5>Django</h5><p class="desc">Django is a high-level Python web framework.</p></div>
+        </div>
+
+        <div class="skill-card" onclick="toggleDescription(this)">
+          <div class="card-img"><img src="../static/assets/images/sql.png" alt="SQL"></div>
+          <div class="card-body"><h5>SQL</h5><p class="desc">SQL manages relational databases and queries.</p></div>
+        </div>
+
+        <div class="skill-card" onclick="toggleDescription(this)">
+          <div class="card-img"><img src="../static/assets/images/api.png" alt="APIs"></div>
+          <div class="card-body"><h5>APIs</h5><p class="desc">APIs connect services and enable integrations.</p></div>
+        </div>
+
+        <div class="skill-card" onclick="toggleDescription(this)">
+          <div class="card-img"><img src="../static/assets/images/numpy.png" alt="NumPy"></div>
+          <div class="card-body"><h5>NumPy</h5><p class="desc">NumPy provides numerical array operations.</p></div>
+        </div>
+
+        <div class="skill-card" onclick="toggleDescription(this)">
+          <div class="card-img"><img src="../static/assets/images/pandas.png" alt="Pandas"></div>
+          <div class="card-body"><h5>Pandas</h5><p class="desc">Pandas simplifies data manipulation and analysis.</p></div>
+        </div>
+
+        <div class="skill-card" onclick="toggleDescription(this)">
+          <div class="card-img"><img src="../static/assets/images/git.png" alt="Git"></div>
+          <div class="card-body"><h5>Git</h5><p class="desc">Git provides version control workflows.</p></div>
+        </div>
+
+        <div class="skill-card" onclick="toggleDescription(this)">
+          <div class="card-img"><img src="../static/assets/images/github.png" alt="GitHub"></div>
+          <div class="card-body"><h5>GitHub</h5><p class="desc">GitHub hosts repositories and collaboration tools.</p></div>
+        </div>
+      </div>
+    </section>
+
+    <section id="ai-tools" class="ai-tools">
+      <h2 class="section-title">AI Tools</h2>
+      <p class="learn-More"> (Click on the Specific tool to learn More ..,)</p>
+      <div class="grid">
+        <div class="skill-card" onclick="toggleDescription(this)">
+          <div class="card-img"><img src="../static/assets/images/chatgpt.png" alt="ChatGPT"></div>
+          <div class="card-body"><h5>ChatGPT</h5><p class="desc">ChatGPT helps ideation, code generation and automation.</p></div>
+        </div>
+        <div class="skill-card" onclick="toggleDescription(this)">
+          <div class="card-img"><img src="../static/assets/images/claude.png" alt="Claude"></div>
+          <div class="card-body"><h5>Claude</h5><p class="desc">Claude excels at long-form reasoning and summarization.</p></div>
+        </div>
+        <div class="skill-card" onclick="toggleDescription(this)">
+          <div class="card-img"><img src="../static/assets/images/gemini.png" alt="Gemini"></div>
+          <div class="card-body"><h5>Gemini</h5><p class="desc">Gemini supports multi-modal AI workflows.</p></div>
+        </div>
+        <div class="skill-card" onclick="toggleDescription(this)">
+          <div class="card-img"><img src="../static/assets/images/copilot.png" alt="Copilot"></div>
+          <div class="card-body"><h5>Copilot</h5><p class="desc">Copilot helps write code inside your editor.</p></div>
+        </div>
+        <div class="skill-card" onclick="toggleDescription(this)">
+          <div class="card-img"><img src="../static/assets/images/perplexity.png" alt="Perplexity"></div>
+          <div class="card-body"><h5>Perplexity</h5><p class="desc">Perplexity combines search with conversational answers.</p></div>
+        </div>
+        <div class="skill-card" onclick="toggleDescription(this)">
+          <div class="card-img"><img src="../static/assets/images/genspark.png" alt="GenSpark"></div>
+          <div class="card-body"><h5>GenSpark</h5><p class="desc">GenSpark-like tools speed up AI prototyping.</p></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- <section id="projects" class="projects">
+      <h2 class="section-title">Real-Time Projects</h2>
+      <div class="project-row">
+        <div class="project-card"><img src="../static/assets/projects/project1.png" alt="P1"><h4>AI Chatbot</h4><p class="small">Django + ChatGPT integration.</p><a href="https://github.com/yourusername/project1" target="_blank">GitHub</a></div>
+        <div class="project-card"><img src="../static/assets/projects/project2.png" alt="P2"><h4>Fullstack Portfolio</h4><p class="small">React + Django REST API.</p><a href="https://github.com/yourusername/project2" target="_blank">GitHub</a></div>
+        <div class="project-card"><img src="../static/assets/projects/project3.png" alt="P3"><h4>Data Dashboard</h4><p class="small">Pandas & visualization.</p><a href="https://github.com/yourusername/project3" target="_blank">GitHub</a></div>
+      </div>
+    </section> -->
+<section id="contact" class="contact">
+  <h2 class="section-title">Contact Me</h2>
+  <form id="contactForm" novalidate>
+    <div class="form-group">
+      <label for="name">Name</label>
+      <input type="text" id="name" name="name" placeholder="Your Name" required>
+      <small class="error-message" id="nameError"></small>
+    </div>
+
+    <div class="form-group">
+      <label for="email">Email</label>
+      <input type="email" id="email" name="email" placeholder="example@gmail.com" required>
+      <small class="error-message" id="emailError"></small>
+    </div>
+
+    <div class="form-group">
+      <label for="phone">Phone</label>
+      <input type="number" id="phone" name="phone" placeholder="1234567890" required>
+      <small class="error-message" id="phoneError"></small>
+    </div>
+
+    <div class="form-group">
+      <label for="message">Message</label>
+      <textarea id="message" name="message" placeholder="Your message..." required></textarea>
+      <small class="error-message" id="messageError"></small>
+    </div>
+
+    <button type="submit" class="btn btn-primary">Send Message</button>
+  </form>
+</section>
+
+    <!-- <section id="contact" class="contact">
+      <h2 class="section-title">Contact Me</h2>
+      <form id="contactForm">
+        <input id="name" name="name" placeholder="Your name" required>
+        <input id="email" name="email" type="email" placeholder="Email" required>
+        <input id="phone" name="phone" placeholder="Phone Number" required>
+        <textarea id="message" name="message" rows="4" placeholder="Message" required></textarea>
+        <button type="submit" class="cta">Send Message</button>
+        <div id="formResponse"></div>
+      </form>
+    </section> -->
+
+    <footer><p>© 2025 Python With KVK</p></footer>
+  </main>
+
+  <script src="../static/js/script.js"></script>
+</body>
+</html>
