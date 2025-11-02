@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Python With KVK - Portfolio
 
 This project contains a responsive portfolio website for the Python With KVK course.
@@ -7,3 +8,7 @@ python -m venv venv
 source venv/bin/activate  # Windows: venv\Scripts\activate
 pip install -r requirements.txt
 python app.py
+=======
+# PythonPortolioProject
+Developed portfolio  on Full stack with Python With AI Tools and Knowledge
+>>>>>>> 827931dc7bdefceb3ed382eaec4ff09c852c338f
